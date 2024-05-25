@@ -25,9 +25,12 @@
 	},
 	"config": {
 		"platform": {
-            "php": "^8.0.0"
+            "php": "8.1.27"
         },
-        "platform-check": false
+        "platform-check": false,
+		"allow-plugins": {
+			"php-http/discovery": true
+		}
     },
 	"require-dev": {
 		"fakerphp/faker": "^1.9",
