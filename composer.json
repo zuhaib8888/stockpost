@@ -25,7 +25,7 @@
 	},
 	"config": {
 		"platform": {
-            "php": "8.2"
+            "php": "^8.0.0"
         },
         "platform-check": false
     },
